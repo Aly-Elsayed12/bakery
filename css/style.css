@@ -1,0 +1,501 @@
+body{
+  font-family: "Alegreya", sans-serif;
+  margin: 0;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: white
+}
+.header{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.container{
+  width: 75%;
+  margin: auto;
+  height: 100%;
+  padding: 30px;
+}
+.home .loading{
+  background-image: url("../images/drew-coffman-1872.jpg");
+  background-size:cover ;
+  background-position: center center;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+.loading .header .container{
+  padding-top: 0;
+}
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 49%;
+}
+.logo img{
+  width: 170px;
+}
+.links {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+.links ul{
+  margin-top: 0;
+}
+.links ul li {
+  display: inline-block;
+  font-size: 17px;
+  margin-left: 10px;
+  padding: 30px 5px;
+  text-align: center;
+}
+.a-special{
+  border-top: 3px solid #ae9768;
+}
+.loading .home{
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+.loading .welcome-text{
+  width: 55%;
+  margin: auto;
+}
+.loading .welcome-text p{
+  font-size: 18px;
+}
+.welcome-text h1{
+  font-size: 60px;
+  font-family: serif;
+}
+.loading .home .buttom{
+  margin-top: 40px;
+  font-weight: 600;
+}
+.loading .home .buttom a{
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 20px 15px;
+  border-radius: 7px;
+}
+.loading .buttom-one{
+  background-color: #8e7754;
+}
+.loading .buttom-two{
+  border: 2px solid white;
+}
+.who-we-are,
+.our-location,
+.baking,
+.contact{
+  margin-bottom: 50px;
+}
+.who-we-are .img,
+.our-location .img{
+  width: 49%;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: top;
+}
+.who-we-are .img img,
+.our-location .img img{
+  width: 80%;
+  display: block;
+}
+.contant{
+  width: 49.5%;
+  display: inline-block;
+}
+.contant .text,
+.contant .icons{
+  padding: 0 20px;
+  width: 85%;
+}
+.who-we-are .icons img{
+  width: 30px;
+  vertical-align:middle;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+}
+.who-we-are .icons ul li{
+  padding: 6px 0;
+}
+.who-we-are .icons ul li span{
+  color:#686868 ;
+  margin-left: 10px;
+}
+.title-for-contant{
+  font-family: serif;
+  font-size: 25px;
+  color: #303030;
+  font-weight: normal;
+}
+.p-for-contant{
+  line-height: 1.8;
+  font-size: 15px;
+  color: #686868;
+}
+.our-location,
+.contact{
+  background-color: #f8f8f8;;
+}
+.baking{
+  text-align: center;
+}
+.baking__header{
+  margin-bottom: 30px;
+}
+.baking .contant{
+  width: 100%;
+}
+.baking .contant .card{
+  float: left;
+  width: 33.333%;
+}
+.baking .contant .card img{
+  width: 90%;
+}
+.clear-fix{
+  clear: both;
+}
+.contact .contant{
+  float: left;
+  width: 50%;
+}
+.google-map{
+  width: 50%;
+  float: left;
+}
+.google-map iframe{
+  width: 450px;
+  margin-left: 60px;
+}
+.contact .icons img{
+  width: 30px;
+  vertical-align:middle;
+  border-radius: 50%;
+  background-color: #8e7754;
+  margin-right: 4px;
+}
+.contact .icons ul li{
+  padding: 6px 0;
+  margin-bottom: 20px;
+}
+.contact .icons ul li span{
+  color:#686868 ;
+  margin-left: 10px;
+}
+.main-footer{
+  background-color: #403d38;;
+}
+.main-footer .box{
+  float: left;
+  width: 24%;
+  margin-left: 10px;
+}
+.main-footer .box img{
+  width: 12px;
+}
+.main-footer .box h3{
+  color: white;
+  font-family: serif;
+  font-weight: 400;
+}
+.main-footer .box span,
+.main-footer .box p{
+  color: #969696;
+  font-size: 14px;
+}
+.main-footer .box p{
+  line-height: 2;
+  font-size: 14px;
+}
+.main-footer .box ul li{
+  border-bottom: 1px solid #ffffff0d;
+  padding-bottom: 15px;
+  margin: 5px 0;
+}
+.main-footer .box.special img{
+  width: 25px;
+  vertical-align: middle;
+}
+.main-footer .box.special{
+  background-image: url("../images/contact-details-map.png");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bottom-footer{
+  background-color: #353330;
+  text-align: center;
+}
+.bottom-footer img {
+  margin-top: 10px;
+}
+.bottom-footer .icons img{
+  width: 40px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.bottom-footer p{
+  font-size: 10px;
+  color:#777;
+}
+.bottom-footer .icons{
+  margin-top: 20px;
+}
+.bottom-footer .icons li{
+  display: inline-block;
+  background-color: #484540;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+/* home end */
+
+/* start about */
+.about .container,
+.about .loading{
+  height: auto;
+}
+.loading .header .container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.about .loading .header {
+  background-color: white;
+}
+.about .links li a {
+  color: #595959;
+}
+.about .links li.a-special a{
+  color: black;
+}
+.about .loading .text{
+  background-image: url("../images/drew-coffman-1872.jpg");
+  background-position: center bottom;
+  background-size: cover;
+}
+.about .loading .text .info{
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+}
+.about .loading .text .info h2{
+  font-size: 65px;
+  font-weight: 200;
+  margin: 0;
+  font-family: serif;
+  padding-top: 20px;
+}
+.about .loading .text .info p{
+  padding-bottom: 40px;
+}
+
+.our-story .img,
+.our-story .contant{
+  float: left;
+  width: 50%;
+}
+.our-story .img img {
+  width:90% ;
+}
+.our-story .contant .text{
+  padding: 40px 5px;
+  width: 80%;
+}
+.our-story .line{
+  margin: 50px 0;
+  height: 1px;
+  width: 40px;
+  background: #e3e3e3;
+}
+.why-our-bakery{
+  background: #f8f8f8;
+}
+.why-our-bakery i::before{
+content: "\f01c";
+color: #8e7754;
+font-size: 70px;
+}
+.why-our-bakery__title{
+  text-align: center;
+}
+.why-our-bakery__title img{
+  width: 65px;
+}
+.why-our-bakery__contant .box{
+  float: left;
+  width: 33.33%;
+}
+.why-our-bakery__contant .box .text{
+  width: 90%;
+}
+.why-our-bakery__contant .box h4{
+  font-size: 20px;
+}
+.information{
+  background-color: #8e7754;
+  padding: 50px 0;
+}
+.information .box{
+  text-align: center;
+  color: white;
+  float: left;
+  width: 25%;
+}
+.information .box p{
+  font-size: 40px;
+  font-family: serif;
+  margin: 10px;
+}
+.information .box span{
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.information i{
+  margin: 20px 0;
+}
+.information i::before{
+  font-size: 40px;
+
+}
+.information .box .i-one::before{
+  content: "\f164";
+}
+.information .box .i-two::before{
+  content: "\f54f";
+}
+.information .box .i-one::before{
+  content: '\f0eb';
+}
+.information .box .i-one::before{
+  content: "\f075";
+}
+
+
+/* end about */
+
+/* start offer */
+.offer .container,
+.offer .loading{
+  height: auto;
+}
+.offer .loading .header {
+  background-color: white;
+}
+.offer .links li a {
+  color: #595959;
+}
+.offer .links li.a-special a{
+  color: black;
+}
+.offer .loading .text{
+  background-image: url("../images/drew-coffman-1872.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.offer .loading .text .info{
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+}
+.offer .loading .text .info h2{
+  font-size: 55px;
+  font-weight: 200;
+  margin: 0;
+  font-family: serif;
+  padding-top: 20px;
+}
+.offer .loading .text .info .buttom{
+  padding: 30px 0;
+}
+.offer .loading .text .info .buttom a:first-child{
+  color: #c8b8ac;
+}
+.our-offer .box .head{
+  border-bottom: 1px solid #efefef;
+}
+.our-offer .box .head h4{
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.our-offer .box .head span{
+  color: #686868;
+}
+.our-offer .box{
+  float: left;
+  width: 29%;
+  padding: 20px ;
+}
+/* end offer */
+
+/* start gallery */
+.gallery .container,
+.gallery .loading{
+  height: auto;
+}
+.gallery .loading .header {
+  background-color: white;
+}
+.gallery .links li a {
+  color: #595959;
+}
+.gallery .links li.a-special a{
+  color: black;
+}
+.gallery .loading .text{
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+.gallery .loading .text .info{
+  text-align: center;
+}
+.gallery .loading .text .info h2{
+  font-size: 55px;
+  font-weight: 200;
+  margin: 0;
+  font-family: serif;
+  padding-top: 20px;
+}
+.gallery .loading .text .info p{
+  color:#686868 ;
+}
+.gallery .photo .box{
+  float: left;
+  width: 32.33%;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 0 10px 10px;
+}
+.gallery .photo .box img{
+  width: 99%;
+}
+.gallery .photo .img-1{
+  background-image: url("../images/roman-kraft-56589-800x760.jpg");
+}
+.gallery .photo .img-2{
+  background-image: url("../images/stas-ovsky.jpg");
+}
+.gallery .photo .img-3{
+  background-image: url("../images/clem-onojeghuo.jpg");
+}
+.gallery .photo .img-4{
+  background-image: url("../images/ben-garratt.jpg");
+}
+.gallery .photo .img-5{
+  background-image: url("../images/full-2.jpg");
+}
+.gallery .photo .img-6{
+  background-image: url("../images/alexandru-stavrica.jpg");
+}
+/* end gallery */
+
